@@ -1,0 +1,48 @@
+.contact{
+    display: flex;
+    width: 70vw;
+    height: 100vh;
+    flex-direction: column;
+    align-items: start;
+    font-size: 18px;
+}
+
+.contact div{
+    margin: 15px;
+}
+
+.contact a{
+    text-decoration: none;
+    color: #ccc;
+    margin: 10px;
+    display: flex;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title strong{
+    margin: 4px;    
+}
+
+.title svg{
+    animation: svgp 2s linear infinite;
+}
+
+@keyframes svgp{
+    0%{
+        color: aqua;        
+    }
+     
+    50%{
+        color: #282c34;
+    }
+
+    100%{
+        color: aqua;        
+    }
+}

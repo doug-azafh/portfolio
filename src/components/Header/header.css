@@ -1,0 +1,28 @@
+.sidebar{
+    display: flex;
+    width: 65vw;
+    justify-content: space-around;
+    border-radius: 0 5px 0;
+}
+
+.sidebar a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 0 0 40px 40px;
+    padding-inline: 25px;
+    transition: all 0.6s;
+    font-size: 20px;
+}
+
+.sidebar svg{
+    margin: 15px 15px 15px 0;
+}
+
+.sidebar a:hover{
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #282c34;
+}
+
